@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resources - Fokus Education</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+     <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+
+     <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+  </head>
+  <body class="index-page">
+    <section class="signup-section">
+        <div class="container">
+           
+            <div class=" row justify-content-center">
+                <div class=" col-md-12 col-lg-10">
+                    <div class=" wrap d-md-flex justify-content-center">
+
+                        <div class=" left-part login-wrap p-4 p-lg-5">
+                            <div class="d-flex">
+                                <div class="w-100">
+                                    <h3 class="mb-4">Sign Up</h3>
+                                </div>
+                                <div class="w-100">
+                                    <div class="social-media d-flex justify-content-end">
+                                    <a href="#" class="social-icon d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+                                    <a href="#" class="social-icon d-flex align-items-center justify-content-center"><i class="bi bi-google"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <form action="#" class="signin-form">
+                            <div class="error-txt"></div>
+                                <div class="form-group mb-3">
+                                    <label class="label" for="fname">First Name</label>
+                                    <input type="text" name="fname" class="form-control" placeholder="first name" required>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label class="label" for="lname">Last Name</label>
+                                    <input type="text" name="lname" class="form-control" placeholder="last name" required>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label class="label" for="email">Email</label>
+                                    <input type="text" name="email" class="form-control" placeholder="email" required>
+                                </div>
+                                <div class="form-group  mb-3">
+                                  
+                                <label class="label" for="password">Password</label> 
+                                    <input type="password" name="password" class="form-control" placeholder="Password" required>
+                                </div>
+                                <div class="form-group  mb-3  ">
+                                    
+                                  <label class="label" >Select Profile picture </label>
+                                  
+                                 <input type="file" name="image" class="form-control" required> 
+                    
+                                 </div>
+                                <div class="form-group ">
+                                    <button type="submit" class="form-control btn btn-primary submit px-3">Create Account</button>
+                                </div>
+                                <div class="form-group d-md-flex">
+                                    <div class="w-50 text-left">
+                                        <label class="checkbox-wrap checkbox-primary mb-0">Remember Me
+                                        <input type="checkbox" checked>
+                                        <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <div class="w-50 text-md-right">
+                                     <a href="#">Forgot Password</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class=" right-part text-wrap p-4 p-lg-5 text-center d-flex align-items-center order-md-last">
+                            <div class=" text w-100">
+                                <h2>Welcome to FOKUS</h2>
+                                <p>Already have an account?</p>
+                                <a href="login.php" class="btn btn-primary btn-outline-white">Login</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+ 
+
+    <!--     BOOTSTRAP JAVASCRIPT      -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/signup.js"></script>
+
+  </body>
+</html>
